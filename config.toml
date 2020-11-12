@@ -5,6 +5,7 @@ defaultContentLanguage = "en"
 # language code
 languageCode = "en"
 
+# Technology Design Culture Business Politics Opinion Science Health Style
 title = "The57thPick"
 
 # Change the default theme to be use when building the site with Hugo

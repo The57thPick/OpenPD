@@ -1,25 +1,27 @@
 ---
 weight: 4
-title: "Basic Markdown Syntax"
-date: 2019-12-01T21:57:40+08:00
-lastmod: 2020-01-01T16:45:40+08:00
+title: "Politics of the High Court"
+date: 2020-11-10T21:57:40+08:00
 draft: false
+
 author: "jdkato"
 authorLink: "https://github.com/jdkato"
-description: "This article shows the basic Markdown syntax and format."
-resources:
-- name: "featured-image"
-  src: "featured-image.png"
 
-tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
+description: "See where current U.S. Supreme Court justices land on the ideological continuum."
+
+summary: "An in-depth look at where current U.S. Supreme Court justices land on the ideological continuum."
+
+resources:
+  - name: "featured-image"
+    src: "scale.png"
+
+tags: ["U.S. Supreme Court", "Statistics"]
+categories: ["Politics"]
 
 lightgallery: true
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
-
-<!--more-->
 
 {{< admonition >}}
 This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).

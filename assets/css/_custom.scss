@@ -1,3 +1,19 @@
 header .logo {
   vertical-align: middle;
 }
+
+.home[posts] .summary .featured-image-preview img {
+  position: relative;
+  border-radius: 15px;
+}
+
+.home[posts] .summary .featured-image-preview {
+  padding: 0 0 0;
+}
+
+.home[posts] .summary {
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  max-width: 600px;
+  margin: auto;
+}
