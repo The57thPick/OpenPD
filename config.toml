@@ -11,6 +11,9 @@ title = "The57thPick"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   # LoveIt theme version
   version = "0.2.X"

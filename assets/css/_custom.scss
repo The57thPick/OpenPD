@@ -17,3 +17,24 @@ header .logo {
   max-width: 600px;
   margin: auto;
 }
+
+.single .content figure {
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.justice-container .justice-mug.conservative {
+  background-color: #feecec;
+}
+.justice-container .justice-mug.liberal {
+  background-color: #d5e7f0;
+}
+
+.justice-container .justice-mug {
+  display: inline-block;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.justice-container .justice-mug img {
+  width: 100%;
+}
