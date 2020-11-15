@@ -11,13 +11,21 @@ title = "The57thPick"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
-[markup.goldmark.renderer]
-  unsafe= true
-
 [params]
   # LoveIt theme version
   version = "0.2.X"
 
+  [params.page.library]
+      [params.page.library.css]
+        # someCSS = "some.css"
+        # located in "assets/" 位于 "assets/"
+        # Or 或者
+        # someCSS = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      [params.page.library.js]
+        # someJavascript = "some.js"
+        # located in "assets/" 位于 "assets/"
+        # Or 或者
+        jq = "https://code.jquery.com/jquery-3.5.1.slim.min.js"
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
     desktopMode = "fixed"
@@ -100,3 +108,5 @@ theme = "LoveIt"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+  [markup.goldmark.renderer]
+    unsafe= true
