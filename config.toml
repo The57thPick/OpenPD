@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
@@ -15,6 +15,21 @@ theme = "LoveIt"
   # LoveIt theme version
   version = "0.2.X"
 
+  # CDN config for third-party library files
+  # 第三方库文件的 CDN 设置
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    # CDN 数据文件名称, 默认不启用
+    # ("jsdelivr.yml")
+    # 位于 "themes/LoveIt/assets/data/cdn/" 目录
+    # 可以在你的项目下相同路径存放你自己的数据文件:
+    # "assets/data/cdn/"
+    data = "jsdelivr.yml"
+
   [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
@@ -25,7 +40,8 @@ theme = "LoveIt"
         # someJavascript = "some.js"
         # located in "assets/" 位于 "assets/"
         # Or 或者
-        jq = "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        # jq = "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
     desktopMode = "fixed"
